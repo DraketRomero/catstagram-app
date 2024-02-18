@@ -1,0 +1,4 @@
+export const GET_BREEDS = 'GET_BREEDS';
+export const SET_SELECTED_BREED = 'SET_SELECTED_BREED';
+export const SET_SELECTED_CAT = 'SET_SELECTED_CAT';
+export const TOGGLE_MODAL = 'TOGGLE_MODAL';
