@@ -7,7 +7,6 @@ export const ModalInformationCats = () => {
     const [catInfo, setCatInfo] = useState([{}]);
 
     useEffect(() => {
-        console.log("Hay gato", selectedCat)
         setCatInfo({
             title: selectedCat.name !== '' ? selectedCat.name : 'No breed name available at the moment, we are working on it :)',
             img: selectedCat.url,
